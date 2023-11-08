@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-capsule-black {
+    @apply bg-gray-900 rounded-full px-3 py-2 text-gray-300;
+  }
+}
+
+body {
+  @apply bg-gray-900;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(transparent, rgb(12, 12, 71));
+  border-radius: 9999px;
+}
+
+*::-webkit-scrollbar {
+  background-color: transparent;
+}
